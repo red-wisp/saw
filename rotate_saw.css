@@ -1,0 +1,11 @@
+.rotating_r,
+.rotating_l{
+    transition: transform .7s ease-in-out;
+}
+
+.bg-white:hover .rotating_r {
+    transform: rotate(360deg);
+}
+.bg-white:hover .rotating_l {
+    transform: rotate(-360deg);
+}

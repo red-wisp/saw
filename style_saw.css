@@ -1,0 +1,142 @@
+body {
+    background-color: #0B1C26;
+}
+
+.one_slide {
+    min-height: 100vh;
+}
+
+#ligg {
+    background-color: #3E4F59;
+}
+
+.footer_logo,
+h1 {
+    color: #F2F2F2;
+    font-family: Montserrat;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.h1_row {
+    height: 50vh;
+    margin-bottom: 5vh;
+}
+
+.p_ps,
+.main_phone_unit h2,
+.main_phone_unit a,
+h2,
+h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ff_mon {
+    font-family: Montserrat;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.p_ps,
+.main_phone_unit h2,
+.main_phone_unit a,
+.walter_w {
+    color: #F2F2F2;
+}
+
+.main_phone_unit .p_ps {
+    line-height: 32px;
+}
+
+.walter_h2 {
+    line-height: 34px;
+    font-weight: 800;
+}
+
+.rapide {
+    color: #F20505;
+}
+
+.location_block .fs-1,
+.main_phone_unit h2,
+.main_phone_unit a,
+h2 {
+    font-size: 36px;
+    text-decoration: none;
+}
+
+
+.background_white {
+    background-color: #F2F2F2;
+}
+.background_red{
+    background-color: #F20505;
+}
+.comment_contact_row {
+    height: 45vh;
+}
+
+.walter_p {
+    font-size: calc(1rem + 0.3vw);
+    font-weight: 600;
+}
+
+.saw_h2 {
+    font-size: calc(1rem + 0.7vw);
+    font-weight: 800;
+}
+
+@media(max-width:860px) {
+    h1 {
+        font-size: calc(1rem + 3.23vw);
+        line-height: calc(1rem + 4.7vw);
+    }
+    .p_ps {
+        font-size: 20px;
+    }
+    .main_phone_unit .telephone,
+    .main_phone_unit h2,
+    .walter_h2 {
+        font-size: 28px;
+    }
+}
+
+@media(max-width:1199px) {
+    .p_ps {
+        font-size: calc(1rem + 1vw);
+    }
+}
+
+@media(max-width: 800px) {
+    .comment_contact_row,
+    .one_slide {
+        height: auto;
+    }
+}
+
+@media(max-width: 430px) {
+    .h1_row {
+        margin-bottom: 10vh;
+        font-size: 0, 5rem;
+        height: auto;
+    }
+    .main_phone_unit .p_ps {
+        font-size: 16px;
+    }
+}
+
+.smile {
+    font-size: 1.5em;
+}

@@ -12,151 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon">
-    <style>
-        body {
-            background-color: #0B1C26;
-        }
-        
-        .one_slide {
-            min-height: 100vh;
-        }
-        
-        #ligg {
-            background-color: #3E4F59;
-        }
-        
-        .footer_logo,
-        h1 {
-            color: #F2F2F2;
-            font-family: Montserrat;
-            font-size: 61px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 74px;
-            letter-spacing: 0em;
-            text-align: left;
-        }
-        
-        .h1_row {
-            height: 50vh;
-            margin-bottom: 5vh;
-        }
-        
-        .p_ps,
-        .bbg_red h2,
-        .bbg_red a,
-        h2,
-        h3 {
-            font-family: Montserrat;
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 29px;
-            letter-spacing: 0em;
-            text-align: left;
-        }
-        
-        .ff_mon {
-            font-family: Montserrat;
-        }
-        
-        h3 {
-            font-weight: 500;
-        }
-        
-        .p_ps,
-        .bbg_red h2,
-        .bbg_red a,
-        .walter_w {
-            color: #F2F2F2;
-        }
-        
-        .bbg_red .p_ps {
-            line-height: 32px;
-        }
-        
-        .walter_h2 {
-            line-height: 34px;
-            font-weight: 800;
-        }
-        
-        .rapide {
-            color: #F20505;
-        }
-        
-        .location_block .fs-1,
-        .bbg_red h2,
-        .bbg_red a,
-        h2 {
-            font-size: 36px;
-            text-decoration: none;
-        }
-        
-        .bbg_red {
-            background-color: #F20505;
-        }
-        
-        .bbg_white {
-            background-color: #F2F2F2;
-        }
-        
-        .row_22 {
-            height: 45vh;
-        }
-        
-        .walter_p {
-            font-size: calc(1rem + 0.3vw);
-            font-weight: 600;
-        }
-        
-        .saw_h2 {
-            font-size: calc(1rem + 0.7vw);
-            font-weight: 800;
-        }
-        
-        @media(max-width:860px) {
-            h1 {
-                font-size: calc(1rem + 3.23vw);
-                line-height: calc(1rem + 4.7vw);
-            }
-            .p_ps {
-                font-size: 20px;
-            }
-            .bbg_red .ttel,
-            .bbg_red h2,
-            .walter_h2 {
-                font-size: 28px;
-            }
-        }
-        
-        @media(max-width:1199px) {
-            .p_ps {
-                font-size: calc(1rem + 1vw);
-            }
-        }
-        
-        @media(max-width: 800px) {
-            .row_22,
-            .one_slide {
-                height: auto;
-            }
-        }
-        
-        @media(max-width: 430px) {
-            .h1_row {
-                margin-bottom: 10vh;
-                font-size: 0, 5rem;
-                height: auto;
-            }
-            .bbg_red .p_ps {
-                font-size: 16px;
-            }
-        }
-        
-        .smile {
-            font-size: 1.5em;
-        }
-    </style>
+    <link href="style_saw.css" rel="stylesheet">
+    <link href="rotate_saw.css" rel="stylesheet">
 </head>
 
 
@@ -170,7 +27,7 @@
                 </div>
             </div>
             <!-- Вторая часть -->
-            <div class="row row_22 mb-5 mb-md-0">
+            <div class="row comment_contact_row mb-5 mb-md-0">
                 <!-- левая заметка -->
                 <div class="col-md-6">
                     <p class="p_ps m-3 m-md-0">
@@ -178,15 +35,16 @@
                     </p>
                 </div>
                 <!-- правая красная -->
-                <div class="col-md-6 bbg_red">
+                <div class="col-md-6 main_phone_unit background_red">
                     <h2 class="m-md-5 m-3">Контакты для&nbsp;связи</h2>
-                    <a href="tel:+7 999 158 9541" class="m-md-5 m-3 ttel">+7 999 158 9541</a>
+                    <a href="tel:+7 999 158 9541" class="m-md-5 m-3 telephone">+7 999 158 9541</a>
                     <p class="p_ps mx-md-5 ms-3 mt-2">Это я. Желательно Telegram, но я также есть в Viber и WhatsApp
                         <span class="smile">😉</span>
                     </p>
                 </div>
             </div>
         </div>
+
         <div class="row mt-5">
             <!-- главное изображение -->
             <img class="mt-md-3 d-none d-sm-block" src="CNC5D_RAPIDE_FULL-_small.webp" alt="Изображение заточного станка">
@@ -194,7 +52,7 @@
             <img class="mt-md-3 d-block d-sm-none" src="CNC5D_RAPIDE_CROP_small.webp" alt="Изображение заточного станка">
         </div>
         <div class="row" style="min-height: 200px;">
-            <div class="col-md-6 bbg_white">
+            <div class="col-md-6 background_white">
                 <h2 class="m-3 mt-md-5 ms-md-4 walter_h2">WALTER WOODTRONIC CNC5D <span class="rapide">RAPIDE</span>
                 </h2>
                 <p class="mx-3 mx-md-4 walter_p">Какое же длинное название🤯 Это&nbsp;чёртов монстр производственного класса. Каким образом он оказался у&nbsp;меня, <i>это отдельная история.</i></p>
@@ -208,13 +66,15 @@
                 <img class="m-4 d-none d-md-block" src="зубы 2.svg" alt="изображение аллексиальных зубов и изображение дупловидного зуба">
 
             </div>
-            <div class="col-md-6 p-0 pb-4" style="background-color: #F20505;">
+
+            <div class="col-md-6 p-0 pb-4 background_red">
                 <img class="p-md-5 img-fluid" src="Щуп 1000.jpg" alt="Изображение заточного станка">
                 <p class="p-4 pb-2 p-md-0 px-md-5 walter_p walter_w">Измерительный щуп каждый цикл проверяет точность съёма, что гарантирует качество заточки.</p>
                 <p class="px-4 p-md-0 px-md-5 walter_p walter_w">Он также вычисляет положение и толцину зуба, это уеньшает сдвиг заточи относительно центра. Так, что не имеет значения 3,5 или 2,8 толщина зуба, всё будет по центру 😜</p>
             </div>
+
             <!-- Ниже колонка только для мобилок -->
-            <div class="col d-block d-md-none bbg_white">
+            <div class="col d-block d-md-none background_white">
                 <img class="m-4 mx-3 mt-5" src="Ст1.svg" alt="изображение зубов первое">
                 <img class="m-4 mx-3 mt-2" src="Ст2.svg" alt="изображение зубов второе">
                 <p class="mx-3 mx-md-4 walter_p">Заточка почти любых видов зубьев, включая дупловидный.</p>
@@ -227,13 +87,13 @@
                 <p class="walter_p walter_w">Цена зависит от колличества зубьев, диаметра и типа.</p>
                 <h3 class="walter_w">Вот несколько примеров:</h3>
                 <!-- Пила CMT D300Z96 -->
-                <div class="row mt-4" style="background-color: white;">
+                <div class="row mt-4 bg-white">
                     <!-- Костыль, одна часть заменяется на мобилках -->
                     <div class="col-md-4 row p-4 d-none d-md-block">
-                        <img class="" src="281.060.10M.webp" alt="изображение пилы CMT">
+                        <img class="rotating_r rounded-circle" src="281.060.10M.webp" alt="изображение пилы CMT">
                     </div>
                     <div class="col-md-4 row p-4 mx-auto mx-ms-0 d-block d-md-none">
-                        <img class="" src="281.060.10M.webp" alt="изображение пилы CMT">
+                        <img src="281.060.10M.webp" alt="изображение пилы CMT">
                     </div>
                     <!-- Конец костыля -->
                     <div class="col-md-8 mt-4">
@@ -243,15 +103,16 @@
                     </div>
                 </div>
                 <!-- Пила Freud D300Z96 -->
-                <div class="row mt-4" style="background-color: white;">
+                <div class="row mt-4 bg-white">
                     <!-- Костыль, одна часть заменяется на мобилках -->
                     <div class="col-md-4 row p-4 d-none d-md-block">
-                        <img class="" src="Freud.svg" alt="изображение пилы CMT">
+                        <img class="rotating_r" src="Freud_LU3D_0600.svg" alt="изображение пилы Freud">
                     </div>
                     <div class="col-md-4 row p-4 mx-auto mx-ms-0 d-block d-md-none">
-                        <img class="" src="Freud.svg" alt="изображение пилы CMT">
+                        <img src="Freud_LU3D_0600.svg" alt="изображение пилы CMT">
                     </div>
                     <!-- Конец костыля -->
+
                     <div class="col-md-8 mt-4">
                         <h2 class="saw_h2">Заточка пилы Freud на 96 зубьев Ø300</h2>
                         <p class="saw_h2 mb-0  fs-1">528₽</p>
@@ -259,13 +120,13 @@
                     </div>
                 </div>
                 <!-- Пила подрезная Freud D120Z24 -->
-                <div class="row mt-4" style="background-color: white;">
+                <div class="row mt-4 bg-white">
                     <!-- Костыль, одна часть заменяется на мобилках -->
                     <div class="col-md-4 row p-5 d-none d-md-block">
-                        <img class="" src="Freud подрезная.svg" alt="изображение пилы CMT">
+                        <img class="rotating_l" src="Freud подрезная.svg" alt="изображение пилы CMT">
                     </div>
                     <div class="col-md-4 row p-5 mx-auto mx-ms-0 d-block d-md-none">
-                        <img class="" src="Freud подрезная.svg" alt="изображение пилы CMT">
+                        <img src="Freud подрезная.svg" alt="изображение пилы CMT">
                     </div>
                     <!-- Конец костыля -->
                     <div class="col-md-8 my-4">
@@ -279,7 +140,7 @@
             <h2 class="walter_w walter_h2">Где я нахожусь и когда работаю</h2>
         </div>
 
-        <div class="row location_block mt-3 mb-5" style="background-color: white;">
+        <div class="row location_block mt-3 mb-5 bg-white">
             <!-- <div class="col-md-6" style="position:relative;overflow:hidden;"> -->
             <iframe class="col-md-5" src="https://yandex.ru/map-widget/v1/-/CCUNQ4xSPC" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
             <!-- </div> -->
